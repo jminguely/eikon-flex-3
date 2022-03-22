@@ -114,3 +114,11 @@
 
 /* 8. exercice-margin-auto */
 
+.exercice-margin-auto .container {
+  display: flex; 
+  flex-direction: row;
+}
+
+.exercice-margin-auto .element {
+  margin: auto; 
+}
