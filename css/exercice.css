@@ -83,10 +83,25 @@
 }
 
 /* 7. exercice-all-in-1 */
+.exercice-all-in-1 .container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  align-items: center;
+}
 
+.element-blue {
+  order: 5;
+  align-self: flex-start;
+}
 
 /* 8. exercice-all-in-2 */
 
-
 /* 8. exercice-margin-auto */
+.exercice-margin-auto .container {
+  display: flex;
+}
 
+.block { 
+   margin: auto;
+}
