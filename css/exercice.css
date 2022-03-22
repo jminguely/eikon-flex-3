@@ -94,9 +94,9 @@
 
 .exercice-margin-auto .container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.exercice-margin-auto .element-red{
   margin: auto;
 }
 
