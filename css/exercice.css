@@ -7,10 +7,11 @@
 .exercice-order-1 .container {
   display: flex;
   flex-direction: row;
-  
 }
-/* 2. exercice-order-1 */
 
+.exercice-order-1 .element-blue { 
+  order : 6;
+}
 
 /* 3. exercice-order-2 */
 
