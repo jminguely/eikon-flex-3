@@ -84,7 +84,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 .exercice-all-in-1 .element-blue {
@@ -93,7 +93,20 @@ justify-content: space-around;
 }
 
 /* 8. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.exercice-all-in-2 .element-blue {
+  order: 1;
+}
+
+.exercice-all-in-2 .element-pink {
+  align-self: flex-start;
+}
 
 /* 8. exercice-margin-auto */
 
