@@ -5,14 +5,22 @@
   margin: auto;
 }
 
-
-
-
 /* 2. exercice-order-1 */
+.exercice-order-1 .container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
 
+.exercice-order-1 .element-blue{
+  order: 3;
+}
 
 /* 3. exercice-order-2 */
-
+.exercice-order-2 .container {
+  display: flex;
+  flex-direction: column;
+}
 
 /* 4. exercice-order-3 */
 
