@@ -21,23 +21,22 @@
   order: -1;
 }
 
-.element-yellow,
-.element-red,
-.element-blue,
-.element-green,
-.element-pink,
-.element-gray {
+.exercice-order-2 .element-yellow,
+.exercice-order-2 .element-red,
+.exercice-order-2 .element-blue,
+.exercice-order-2 .element-green,
+.exercice-order-2 .element-pink,
+.exercice-order-2 .element-gray {
   width: 100%;
 }
-
-
 
 .exercice-order-3 .container {
   display: flex;
   flex-direction: row-reverse;
 }
-.element-red,
-.element-blue {
+
+.exercice-order-3 .element-red,
+.exercice-order-3 .element-blue {
   order: 1;
 }
 
