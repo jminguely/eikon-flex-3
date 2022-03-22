@@ -58,7 +58,29 @@
 }
 
 /* 6. exercice-align-self-2*/
+.exercice-align-self-2 .container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
 
+.element-blue {
+  align-self: flex-start;
+  order: 3;
+}
+
+.element-yellow {
+  align-self: flex-end;
+  order: 1;
+}
+
+.element-red {
+  order: 4;
+}
+
+.element-green {
+  order: 2;
+}
 
 /* 7. exercice-all-in-1 */
 
