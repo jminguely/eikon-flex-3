@@ -27,8 +27,32 @@
   order: -1; 
 }
 
+.exercice-order-2 .element {
+  margin: auto; 
+}
+
 /* 4. exercice-order-3 */
 
+.exercice-order-3 .container {
+  display: flex; 
+  flex-direction: row;
+}
+
+.exercice-order-3 .element-blue {
+  order: -1; 
+}
+
+.exercice-order-3 .element-green {
+  order: 3;
+}
+
+.exercice-order-3 .element-yellow {
+  order: 2; 
+}
+
+.exercice-order-3 .element-pink {
+  order: 1; 
+}
 
 /* 5. exercice-align-self-1*/
 
