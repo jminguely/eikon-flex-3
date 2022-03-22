@@ -20,13 +20,16 @@
   align-items: center;
 }
 
-.exercice-order-2 .container .element-yellow,
-.element-red,
-.element-blue,
-.element-green,
-.element-pink,
-.element-gray{
+.exercice-order-2 .container .element-yellow{
   order: -1;
+}
+
+.exercice-order-2 .container .element-yellow,
+.exercice-order-2 .container .element-red,
+.exercice-order-2 .container .element-blue,
+.exercice-order-2 .container .element-green,
+.exercice-order-2 .container .element-pink,
+.exercice-order-2 .container .element-gray{
   width: 100%;
 }
 
