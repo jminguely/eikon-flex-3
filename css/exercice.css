@@ -96,5 +96,12 @@
 .exercice-all-in-2 .element-pink{
   align-self: flex-start;
 }
-/* 8. exercice-margin-auto */
 
+/* 8. exercice-margin-auto */
+.exercice-margin-auto .container{
+  display: flex;
+}
+
+.exercice-margin-auto .element{
+  margin: auto;
+}
