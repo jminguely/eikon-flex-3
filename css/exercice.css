@@ -49,6 +49,31 @@
 
 
 /* 5. exercice-align-self-1*/
+.exercice-align-self-1 .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.exercice-align-self-1 .element-red {
+  order: 6;
+}
+
+.exercice-align-self-1 .element-blue {
+  order: 5;
+}
+
+.exercice-align-self-1 .element-green {
+  order: 4;
+}
+
+.exercice-align-self-1 .element-yellow {
+  order: 3;
+  align-self: flex-end;
+}
+
+.exercice-align-self-1 .element-pink {
+  order: 2;
+}
 
 
 /* 6. exercice-align-self-2*/
