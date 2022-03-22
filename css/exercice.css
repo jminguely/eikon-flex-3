@@ -101,4 +101,10 @@
   align-self: flex-start;
 }
 /* 8. exercice-margin-auto */
+.exercice-margin-auto .container{ 
+  display: flex;
+}
 
+.exercice-margin-auto .container .element-red{
+  margin: auto;
+}
