@@ -1,7 +1,8 @@
 /* 1. exercice-flex */
 
 .exercice-flex .container {
-  margin: auto; 
+  display: flex; 
+  flex-direction: row; 
 }
 
 /* 2. exercice-order-1 */
@@ -17,6 +18,9 @@
 
 /* 3. exercice-order-2 */
 
+.exercice-order-2 .container {
+
+}
 
 /* 4. exercice-order-3 */
 
