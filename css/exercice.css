@@ -13,9 +13,22 @@
   order: 1;
 }
 
-
 /* 3. exercice-order-2 */
+.exercice-order-2 .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.exercice-order-2 .container .element-yellow,
+.element-red,
+.element-blue,
+.element-green,
+.element-pink,
+.element-gray{
+  order: -1;
+  width: 100%;
+}
 
 /* 4. exercice-order-3 */
 
