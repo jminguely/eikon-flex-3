@@ -5,26 +5,62 @@
 }
 
 /* 2. exercice-order-1 */
-.element-yellow {
+.exercice-order-1 .element-yellow {
   order: -1;
 }
 
-.element-red {
+.exercice-order-1 .element-red {
   order: -3;
 }
 
-.element-green {
+.exercice-order-1 .element-green {
   order: -2;
 }
 
-.element-blue {
+.exercice-order-1 .element-blue {
   order: 1;
 }
 
 /* 3. exercice-order-2 */
 
+.exercice-order-2 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercice-order-2 .element {
+  width: auto;
+}
+
+.exercice-order-2 .element-yellow {
+  order: -1;
+}
 
 /* 4. exercice-order-3 */
+
+.exercice-order-3 .element-blue {
+  order: -3;
+}
+
+.exercice-order-3 .element-red {
+  order: -2;
+}
+
+.exercice-order-3 .element-grey {
+  order: -1;
+}
+
+.exercice-order-3 .element-pink {
+  order: 1;
+}
+
+.exercice-order-3 .element-yellow {
+  order: 2;
+}
+
+.exercice-order-3 .element-green {
+  order: 3;
+}
 
 
 /* 5. exercice-align-self-1*/
