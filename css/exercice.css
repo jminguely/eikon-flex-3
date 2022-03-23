@@ -1,5 +1,10 @@
 /* 1. exercice-flex */
-
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 /* 2. exercice-order-1 */
 
