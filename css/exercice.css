@@ -76,7 +76,21 @@
 }
 
 /* 8. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.exercice-all-in-2 .container .element-blue {
+  order: 2;
+}
+
+.exercice-all-in-2 .container .element-pink {
+  align-self: flex-start;
+}
 
 /* 8. exercice-margin-auto */
 
