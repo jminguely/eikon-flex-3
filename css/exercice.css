@@ -33,6 +33,31 @@
 
 /* 4. exercice-order-3 */
 
+.exercice-order-3 .container{
+  display: flex;
+  flex-direction: row;
+}
+
+.exercice-order-3 .element-blue{
+  order: -1;
+}
+
+.exercice-order-1 .element-gray{
+  order: 0;
+}
+
+.exercice-order-3 .element-pink{
+  order: 1;
+}
+
+.exercice-order-3 .element-yellow{
+  order: 2;
+}
+
+.exercice-order-3 .element-green{
+  order: 3;
+}
+
 
 /* 5. exercice-align-self-1*/
 
