@@ -46,6 +46,20 @@
 }
 
 /* 6. exercice-align-self-2*/
+.exercice-align-self-2 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.exercice-align-self-2 .container .element-blue {
+  align-self: flex-start;
+}
+
+.exercice-align-self-2 .container .element-yellow {
+  align-self: flex-end;
+}
 
 
 /* 7. exercice-all-in-1 */
