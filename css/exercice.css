@@ -23,12 +23,19 @@
   flex-direction: row-reverse;
 }
 
-.exercice-order-3 .element-blue, .element-red{
+.exercice-order-3 .element-blue, .exercice-order-3 .element-red{
   order: 1;
 }
 
 /* 5. exercice-align-self-1*/
+.exercice-align-self-1 .container {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
+.exercice-align-self-1 .element-yellow {
+  align-self: flex-end;
+}
 
 /* 6. exercice-align-self-2*/
 
