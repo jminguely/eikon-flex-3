@@ -19,12 +19,14 @@
 /* 4. exercice-order-3 */
 .exercice-order-3 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
-.exercice-order-3 .element-gray {
+.exercice-order-3 .element-red {
   order: 1;
 }
-
+.exercice-order-3 .element-blue {
+  order: 1;
+}
 /* 5. exercice-align-self-1*/
 .exercice-align-self-1 .container {
   display: flex;
@@ -63,10 +65,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 .exercice-all-in-2 .element-pink {
   align-self: flex-start;
-  order: -1;
+}
+.exercice-all-in-2 .element-blue {
+  order: 1;
 }
 
 
