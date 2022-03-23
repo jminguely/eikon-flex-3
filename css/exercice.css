@@ -60,6 +60,7 @@
   align-items: center;
 }
 
+/* 7. exercice-all-in-1*/
 .exercice-align-self-2 .element-blue {
   align-self: flex-start;
 }
