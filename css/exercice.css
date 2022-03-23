@@ -1,8 +1,7 @@
 /* 1. exercice-flex */
-.exercice-flex .container {
+exercice-flex .container {
   display: flex;
   flex-direction: row;
-  margin: auto;
 }
 
 /* 2. exercice-order-1 */
@@ -15,6 +14,9 @@
 }
 
 /* 3. exercice-order-2 */
+
+
+
 
 
 /* 4. exercice-order-3 */
@@ -39,13 +41,40 @@
 }
 
 /* 6. exercice-align-self-2*/
+.exercice-align-self-2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exercice-align-self-2 .element-blue {
+  align-self: flex-end;
+}
+
+.exercice-align-self-2 .element-yellow {
+  align-self: flex-end;
+}
+
 
 
 /* 7. exercice-all-in-1 */
 
 
 /* 8. exercice-all-in-2 */
+.exercice-all-in-2 .container{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 
 
 /* 8. exercice-margin-auto */
+.exercice-margin-auto .container{
+  display: flex;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background: pink;
+}
 
