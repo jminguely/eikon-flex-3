@@ -84,4 +84,10 @@
 }
 
 /* 8. exercice-margin-auto */
+.exercice-margin-auto .container-big{
+  display: flex;
+}
 
+.exercice-margin-auto .element-red{
+  margin: auto;
+}
