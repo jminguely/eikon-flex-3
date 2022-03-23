@@ -28,6 +28,10 @@
   flex-direction: row-reverse;
 }
 
+.exercice-order-3 .element-blue, .exercice-order-3 .element-red {
+order: 1;
+}
+
 
 /* 5. exercice-align-self-1*/
 .exercice-align-self-1 .container {
