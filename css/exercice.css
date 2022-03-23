@@ -1,5 +1,5 @@
 /* 1. exercice-flex */
-exercice-flex .container {
+.exercice-flex .container {
   display: flex;
   flex-direction: row;
 }
@@ -14,7 +14,10 @@ exercice-flex .container {
 }
 
 /* 3. exercice-order-2 */
-
+.exercice-order-2 .container {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
@@ -23,10 +26,6 @@ exercice-flex .container {
 .exercice-order-3 .container {
   display: flex;
   flex-direction: row-reverse;
-}
-
-.element-blue, .element-red {
-  order: 1;
 }
 
 
@@ -65,6 +64,8 @@ exercice-flex .container {
   background-color: aqua;
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
+  justify-content:space-between;
 }
 
 
