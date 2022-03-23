@@ -43,10 +43,19 @@
 
 
 /* 5. exercice-align-self-1*/
+.exercice-align-self-1 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
 
+.exercice-align-self-1 .element-yellow {
+  align-self: flex-end;
+}
 
 
 /* 6. exercice-align-self-2*/
+
 
 
 /* 7. exercice-all-in-1 */
