@@ -21,11 +21,13 @@
   flex-direction: column;
 }
 
+.exercice-order-2 .element {
+  width: 100%;
+}
+
 .exercice-order-2 .element-yellow {
   order: -1;
 }
-
-
 
 /* 4. exercice-order-3 */
 .exercice-order-3 .container {
@@ -93,7 +95,12 @@
   order: 1;
 }
 
-
-
 /* 8. exercice-margin-auto */
+.exercice-margin-auto .container {
+  display: flex;
+  padding: 30px;
+}
 
+.exercice-margin-auto .element-red {
+  margin: auto;
+}
