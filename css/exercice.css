@@ -89,7 +89,7 @@
 .exercice-all-in-2 .container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .exercice-all-in-2 .element-blue {
