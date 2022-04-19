@@ -35,8 +35,16 @@
   order: -1;
 }
 
-.exercice-order-3 .element-green {
+.exercice-order-3 .element-pink {
   order: 1;
+}
+
+.exercice-order-3 .element-yellow {
+  order: 2;
+}
+
+.exercice-order-3 .element-green {
+  order: 3;
 }
 
 /* 5. exercice-align-self-1*/
